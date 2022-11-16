@@ -1,10 +1,8 @@
 <?php
-    try
-    {
+    try{
         $bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8', 'root', 'root',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
     }
-    catch (Exception $e)
-    {
+    catch (Exception $e){
             die('Erreur : ' . $e->getMessage());
     }
 
@@ -14,6 +12,6 @@
   'nom'=>$_POST['pseudo']
   ));
   
-header('Location: main_page.php');
+  header('Location: main_page.php');
 
 ?>
