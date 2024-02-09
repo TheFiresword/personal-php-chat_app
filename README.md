@@ -1,4 +1,6 @@
 # A chat app
-Implemented with php
-<br> Look at the png image<br>
-date:2021
+
+![image](capture.png)
+
+- Implemented with php
+- date:2021
